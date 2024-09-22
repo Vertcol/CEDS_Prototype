@@ -1,8 +1,5 @@
 import time
 import asyncio
-import importlib
-import os
-import numpy as np 
 from instrument import Instrument, find_serial_port
 from checks import checkLight, checkTemperature
 
